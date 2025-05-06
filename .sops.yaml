@@ -1,0 +1,8 @@
+creation_rules:  
+  - path_regex: 'production.enc.*'
+    # Here, we have :
+    # * `Fraiza (Admin)` key-id: age14j0lszmwyk5kw4smyj403clkuq6yetu9g9wsq44rx5ekkuvmf4zsn2mg34
+    # * `Hedicon - ECS PROD` key-id: age10g5va00qxnpwcc04jud5nemypzq3dh4fe55f3rl4lkqw0tqpzdes4s57at
+    age: >-
+      age14j0lszmwyk5kw4smyj403clkuq6yetu9g9wsq44rx5ekkuvmf4zsn2mg34,
+      age10g5va00qxnpwcc04jud5nemypzq3dh4fe55f3rl4lkqw0tqpzdes4s57at

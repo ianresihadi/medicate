@@ -1,0 +1,1237 @@
+[
+  {
+    "name": "Afganistan",
+    "code": "AF",
+    "isActive": true
+  },
+  {
+    "name": "Albania",
+    "code": "AL",
+    "isActive": true
+  },
+  {
+    "name": "Aljazair",
+    "code": "DZ",
+    "isActive": true
+  },
+  {
+    "name": "Samoa Amerika",
+    "code": "AS",
+    "isActive": true
+  },
+  {
+    "name": "Andorra",
+    "code": "AD",
+    "isActive": true
+  },
+  {
+    "name": "Angola",
+    "code": "AO",
+    "isActive": true
+  },
+  {
+    "name": "Anguilla",
+    "code": "AI",
+    "isActive": true
+  },
+  {
+    "name": "Antartika",
+    "code": "AQ",
+    "isActive": true
+  },
+  {
+    "name": "Antigua dan Barbuda",
+    "code": "AG",
+    "isActive": true
+  },
+  {
+    "name": "Argentina",
+    "code": "AR",
+    "isActive": true
+  },
+  {
+    "name": "Armenia",
+    "code": "AM",
+    "isActive": true
+  },
+  {
+    "name": "Aruba",
+    "code": "AW",
+    "isActive": true
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "isActive": true
+  },
+  {
+    "name": "Austria",
+    "code": "AT",
+    "isActive": true
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "AZ",
+    "isActive": true
+  },
+  {
+    "name": "Bahama",
+    "code": "BS",
+    "isActive": true
+  },
+  {
+    "name": "Bahrain",
+    "code": "BH",
+    "isActive": true
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BD",
+    "isActive": true
+  },
+  {
+    "name": "Barbados",
+    "code": "BB",
+    "isActive": true
+  },
+  {
+    "name": "Belarus",
+    "code": "BY",
+    "isActive": true
+  },
+  {
+    "name": "Belgia",
+    "code": "BE",
+    "isActive": true
+  },
+  {
+    "name": "Belize",
+    "code": "BZ",
+    "isActive": true
+  },
+  {
+    "name": "Benin",
+    "code": "BJ",
+    "isActive": true
+  },
+  {
+    "name": "Bermuda",
+    "code": "BM",
+    "isActive": true
+  },
+  {
+    "name": "Bhutan",
+    "code": "BT",
+    "isActive": true
+  },
+  {
+    "name": "Bolivia",
+    "code": "BO",
+    "isActive": true
+  },
+  {
+    "name": "Bosnia dan Herzegovina",
+    "code": "BA",
+    "isActive": true
+  },
+  {
+    "name": "Botswana",
+    "code": "BW",
+    "isActive": true
+  },
+  {
+    "name": "Pulau Bouvet",
+    "code": "BV",
+    "isActive": true
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "isActive": true
+  },
+  {
+    "name": "Wilayah Samudra Hindia Inggris",
+    "code": "IO",
+    "isActive": true
+  },
+  {
+    "name": "Brunei Darussalam",
+    "code": "BN",
+    "isActive": true
+  },
+  {
+    "name": "Bulgaria",
+    "code": "BG",
+    "isActive": true
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "BF",
+    "isActive": true
+  },
+  {
+    "name": "Burundi",
+    "code": "BI",
+    "isActive": true
+  },
+  {
+    "name": "Kamboja",
+    "code": "KH",
+    "isActive": true
+  },
+  {
+    "name": "Kamerun",
+    "code": "CM",
+    "isActive": true
+  },
+  {
+    "name": "Kanada",
+    "code": "CA",
+    "isActive": true
+  },
+  {
+    "name": "Green Cape",
+    "code": "CV",
+    "isActive": true
+  },
+  {
+    "name": "Kepulauan Cayman",
+    "code": "KY",
+    "isActive": true
+  },
+  {
+    "name": "Republik Afrika Tengah",
+    "code": "CF",
+    "isActive": true
+  },
+  {
+    "name": "Chad",
+    "code": "TD",
+    "isActive": true
+  },
+  {
+    "name": "Chili",
+    "code": "CL",
+    "isActive": true
+  },
+  {
+    "name": "Cina",
+    "code": "CN",
+    "isActive": true
+  },
+  {
+    "name": "Pulau Natal",
+    "code": "CX",
+    "isActive": true
+  },
+  {
+    "name": "Kepulauan Cocos (Keeling)",
+    "code": "CC",
+    "isActive": true
+  },
+  {
+    "name": "Kolumbia",
+    "code": "CO",
+    "isActive": true
+  },
+  {
+    "name": "Komoro",
+    "code": "KM",
+    "isActive": true
+  },
+  {
+    "name": "Kongo",
+    "code": "CG",
+    "isActive": true
+  },
+  {
+    "name": "Kongo, Republik Demokratik",
+    "code": "CD",
+    "isActive": true
+  },
+  {
+    "name": "Pulau Masak",
+    "code": "CK",
+    "isActive": true
+  },
+  {
+    "name": "Kosta Rika",
+    "code": "CR",
+    "isActive": true
+  },
+  {
+    "name": "Kroasia",
+    "code": "HR",
+    "isActive": true
+  },
+  {
+    "name": "Kuba",
+    "code": "CU",
+    "isActive": true
+  },
+  {
+    "name": "Curacao",
+    "code": "CW",
+    "isActive": true
+  },
+  {
+    "name": "Siprus",
+    "code": "CY",
+    "isActive": true
+  },
+  {
+    "name": "Republik Ceko",
+    "code": "CZ",
+    "isActive": true
+  },
+  {
+    "name": "Pantai Gading",
+    "code": "CI",
+    "isActive": true
+  },
+  {
+    "name": "Denmark",
+    "code": "DK",
+    "isActive": true
+  },
+  {
+    "name": "Djibouti",
+    "code": "DJ",
+    "isActive": true
+  },
+  {
+    "name": "Dominika",
+    "code": "DM",
+    "isActive": true
+  },
+  {
+    "name": "Republik Dominika",
+    "code": "DO",
+    "isActive": true
+  },
+  {
+    "name": "Ekuador",
+    "code": "EC",
+    "isActive": true
+  },
+  {
+    "name": "Mesir",
+    "code": "EG",
+    "isActive": true
+  },
+  {
+    "name": "El Salvador",
+    "code": "SV",
+    "isActive": true
+  },
+  {
+    "name": "Guinea Ekuatorial",
+    "code": "GQ",
+    "isActive": true
+  },
+  {
+    "name": "Eritrea",
+    "code": "ER",
+    "isActive": true
+  },
+  {
+    "name": "Estonia",
+    "code": "EE",
+    "isActive": true
+  },
+  {
+    "name": "Etiopia",
+    "code": "ET",
+    "isActive": true
+  },
+  {
+    "name": "Kepulauan Falkland (Malvinas)",
+    "code": "FK",
+    "isActive": true
+  },
+  {
+    "name": "Kepulauan Faroe",
+    "code": "FO",
+    "isActive": true
+  },
+  {
+    "name": "Fiji",
+    "code": "FJ",
+    "isActive": true
+  },
+  {
+    "name": "Finlandia",
+    "code": "FI",
+    "isActive": true
+  },
+  {
+    "name": "Perancis",
+    "code": "FR",
+    "isActive": true
+  },
+  {
+    "name": "Guyana Prancis",
+    "code": "GF",
+    "isActive": true
+  },
+  {
+    "name": "Polinesia Prancis",
+    "code": "PF",
+    "isActive": true
+  },
+  {
+    "name": "Wilayah Selatan Prancis",
+    "code": "TF",
+    "isActive": true
+  },
+  {
+    "name": "Gabon",
+    "code": "GA",
+    "isActive": true
+  },
+  {
+    "name": "Gambia",
+    "code": "GM",
+    "isActive": true
+  },
+  {
+    "name": "Georgia",
+    "code": "GE",
+    "isActive": true
+  },
+  {
+    "name": "Jerman",
+    "code": "DE",
+    "isActive": true
+  },
+  {
+    "name": "Ghana",
+    "code": "GH",
+    "isActive": true
+  },
+  {
+    "name": "Gibraltar",
+    "code": "GI",
+    "isActive": true
+  },
+  {
+    "name": "Yunani",
+    "code": "GR",
+    "isActive": true
+  },
+  {
+    "name": "Tanah penggembalaan",
+    "code": "GL",
+    "isActive": true
+  },
+  {
+    "name": "Grenada",
+    "code": "GD",
+    "isActive": true
+  },
+  {
+    "name": "Guadeloupe",
+    "code": "GP",
+    "isActive": true
+  },
+  {
+    "name": "Guam",
+    "code": "GU",
+    "isActive": true
+  },
+  {
+    "name": "Guatemala",
+    "code": "GT",
+    "isActive": true
+  },
+  {
+    "name": "Guernsey",
+    "code": "GG",
+    "isActive": true
+  },
+  {
+    "name": "Guinea",
+    "code": "GN",
+    "isActive": true
+  },
+  {
+    "name": "Guinea-Bissau",
+    "code": "GW",
+    "isActive": true
+  },
+  {
+    "name": "Guyana",
+    "code": "GY",
+    "isActive": true
+  },
+  {
+    "name": "Haiti",
+    "code": "HT",
+    "isActive": true
+  },
+  {
+    "name": "Mendengar pulau dan pulau McDonald",
+    "code": "HM",
+    "isActive": true
+  },
+  {
+    "name": "Tahta Suci (Negara Bagian Kota Vatikan)",
+    "code": "VA",
+    "isActive": true
+  },
+  {
+    "name": "Honduras",
+    "code": "HN",
+    "isActive": true
+  },
+  {
+    "name": "Hong Kong",
+    "code": "HK",
+    "isActive": true
+  },
+  {
+    "name": "Hongaria",
+    "code": "HU",
+    "isActive": true
+  },
+  {
+    "name": "Islandia",
+    "code": "IS",
+    "isActive": true
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "isActive": true
+  },
+  {
+    "name": "Indonesia",
+    "code": "ID",
+    "isActive": true
+  },
+  {
+    "name": "Iran, Republik Islam",
+    "code": "IR",
+    "isActive": true
+  },
+  {
+    "name": "Irak",
+    "code": "IQ",
+    "isActive": true
+  },
+  {
+    "name": "Irlandia",
+    "code": "IE",
+    "isActive": true
+  },
+  {
+    "name": "Isle of Man",
+    "code": "IM",
+    "isActive": true
+  },
+  {
+    "name": "Israel",
+    "code": "IL",
+    "isActive": true
+  },
+  {
+    "name": "Italia",
+    "code": "IT",
+    "isActive": true
+  },
+  {
+    "name": "Jamaika",
+    "code": "JM",
+    "isActive": true
+  },
+  {
+    "name": "Jepang",
+    "code": "JP",
+    "isActive": true
+  },
+  {
+    "name": "Jersey",
+    "code": "JE",
+    "isActive": true
+  },
+  {
+    "name": "Jordan",
+    "code": "JO",
+    "isActive": true
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "isActive": true
+  },
+  {
+    "name": "Kenya",
+    "code": "KE",
+    "isActive": true
+  },
+  {
+    "name": "Kiribati",
+    "code": "KI",
+    "isActive": true
+  },
+  {
+    "name": "Korea, Republik",
+    "code": "KR",
+    "isActive": true
+  },
+  {
+    "name": "Kuwait",
+    "code": "KW",
+    "isActive": true
+  },
+  {
+    "name": "Kyrgyzstan",
+    "code": "KG",
+    "isActive": true
+  },
+  {
+    "name": "Laos",
+    "code": "LA",
+    "isActive": true
+  },
+  {
+    "name": "Latvia",
+    "code": "LV",
+    "isActive": true
+  },
+  {
+    "name": "Libanon",
+    "code": "LB",
+    "isActive": true
+  },
+  {
+    "name": "Lesotho",
+    "code": "LS",
+    "isActive": true
+  },
+  {
+    "name": "Liberia",
+    "code": "LR",
+    "isActive": true
+  },
+  {
+    "name": "Publik Arab Libya",
+    "code": "LY",
+    "isActive": true
+  },
+  {
+    "name": "Liechtenstein",
+    "code": "LI",
+    "isActive": true
+  },
+  {
+    "name": "Lithuania",
+    "code": "LT",
+    "isActive": true
+  },
+  {
+    "name": "Luksemburg",
+    "code": "LU",
+    "isActive": true
+  },
+  {
+    "name": "Makau",
+    "code": "MO",
+    "isActive": true
+  },
+  {
+    "name": "Madagaskar",
+    "code": "MG",
+    "isActive": true
+  },
+  {
+    "name": "Api",
+    "code": "MW",
+    "isActive": true
+  },
+  {
+    "name": "Malaysia",
+    "code": "MY",
+    "isActive": true
+  },
+  {
+    "name": "Maladewa",
+    "code": "MV",
+    "isActive": true
+  },
+  {
+    "name": "Harus",
+    "code": "ML",
+    "isActive": true
+  },
+  {
+    "name": "Malta",
+    "code": "MT",
+    "isActive": true
+  },
+  {
+    "name": "Kepulauan Marshall",
+    "code": "MH",
+    "isActive": true
+  },
+  {
+    "name": "Martinique",
+    "code": "MQ",
+    "isActive": true
+  },
+  {
+    "name": "Mauritania",
+    "code": "MR",
+    "isActive": true
+  },
+  {
+    "name": "Mauritius",
+    "code": "MU",
+    "isActive": true
+  },
+  {
+    "name": "Mayotte",
+    "code": "YT",
+    "isActive": true
+  },
+  {
+    "name": "Meksiko",
+    "code": "MX",
+    "isActive": true
+  },
+  {
+    "name": "Mikronesia, keadaan federasi",
+    "code": "FM",
+    "isActive": true
+  },
+  {
+    "name": "Moldova, Republik",
+    "code": "MD",
+    "isActive": true
+  },
+  {
+    "name": "Monako",
+    "code": "MC",
+    "isActive": true
+  },
+  {
+    "name": "Mongolia",
+    "code": "MN",
+    "isActive": true
+  },
+  {
+    "name": "Montenegro",
+    "code": "ME",
+    "isActive": true
+  },
+  {
+    "name": "Montserrat",
+    "code": "MS",
+    "isActive": true
+  },
+  {
+    "name": "Maroko",
+    "code": "MA",
+    "isActive": true
+  },
+  {
+    "name": "Mozambik",
+    "code": "MZ",
+    "isActive": true
+  },
+  {
+    "name": "Myanmar",
+    "code": "MM",
+    "isActive": true
+  },
+  {
+    "name": "Namibia",
+    "code": "NA",
+    "isActive": true
+  },
+  {
+    "name": "Nauru",
+    "code": "NR",
+    "isActive": true
+  },
+  {
+    "name": "Nepal",
+    "code": "NP",
+    "isActive": true
+  },
+  {
+    "name": "Belanda",
+    "code": "NL",
+    "isActive": true
+  },
+  {
+    "name": "Antilles Belanda",
+    "code": "AN",
+    "isActive": true
+  },
+  {
+    "name": "Kaledonia Baru",
+    "code": "NC",
+    "isActive": true
+  },
+  {
+    "name": "Selandia Baru",
+    "code": "NZ",
+    "isActive": true
+  },
+  {
+    "name": "Nikaragua",
+    "code": "NI",
+    "isActive": true
+  },
+  {
+    "name": "Niger",
+    "code": "NE",
+    "isActive": true
+  },
+  {
+    "name": "Nigeria",
+    "code": "NG",
+    "isActive": true
+  },
+  {
+    "name": "Niue",
+    "code": "NU",
+    "isActive": true
+  },
+  {
+    "name": "Pulau Norfolk",
+    "code": "NF",
+    "isActive": true
+  },
+  {
+    "name": "Korea Utara",
+    "code": "KP",
+    "isActive": true
+  },
+  {
+    "name": "Makedonia Utara",
+    "code": "MK",
+    "isActive": true
+  },
+  {
+    "name": "Kepulauan Mariana Utara",
+    "code": "MP",
+    "isActive": true
+  },
+  {
+    "name": "Norwegia",
+    "code": "NO",
+    "isActive": true
+  },
+  {
+    "name": "Oman",
+    "code": "OM",
+    "isActive": true
+  },
+  {
+    "name": "Pakistan",
+    "code": "PK",
+    "isActive": true
+  },
+  {
+    "name": "Palau",
+    "code": "PW",
+    "isActive": true
+  },
+  {
+    "name": "Palestina",
+    "code": "PS",
+    "isActive": true
+  },
+  {
+    "name": "Panama",
+    "code": "PA",
+    "isActive": true
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "isActive": true
+  },
+  {
+    "name": "Paraguay",
+    "code": "PY",
+    "isActive": true
+  },
+  {
+    "name": "Peru",
+    "code": "PE",
+    "isActive": true
+  },
+  {
+    "name": "Filipina",
+    "code": "PH",
+    "isActive": true
+  },
+  {
+    "name": "Kepulauan Pitcairn",
+    "code": "PN",
+    "isActive": true
+  },
+  {
+    "name": "Polandia",
+    "code": "PL",
+    "isActive": true
+  },
+  {
+    "name": "Portugal",
+    "code": "PT",
+    "isActive": true
+  },
+  {
+    "name": "Puerto Rico",
+    "code": "PR",
+    "isActive": true
+  },
+  {
+    "name": "Qatar",
+    "code": "QA",
+    "isActive": true
+  },
+  {
+    "name": "Reuni",
+    "code": "RE",
+    "isActive": true
+  },
+  {
+    "name": "Rumania",
+    "code": "RO",
+    "isActive": true
+  },
+  {
+    "name": "Rusia",
+    "code": "RU",
+    "isActive": true
+  },
+  {
+    "name": "Rwanda",
+    "code": "RW",
+    "isActive": true
+  },
+  {
+    "name": "Saint Bartholemy",
+    "code": "BL",
+    "isActive": true
+  },
+  {
+    "name": "Saint Helena",
+    "code": "SH",
+    "isActive": true
+  },
+  {
+    "name": "Saint Kitts dan Nevis",
+    "code": "KN",
+    "isActive": true
+  },
+  {
+    "name": "Saint Lucia",
+    "code": "LC",
+    "isActive": true
+  },
+  {
+    "name": "Saint Martin",
+    "code": "MF",
+    "isActive": true
+  },
+  {
+    "name": "Saint Pierre dan Miquelon",
+    "code": "PM",
+    "isActive": true
+  },
+  {
+    "name": "Saint Vincent dan The Grenadines",
+    "code": "VC",
+    "isActive": true
+  },
+  {
+    "name": "Samoa",
+    "code": "WS",
+    "isActive": true
+  },
+  {
+    "name": "San Marino",
+    "code": "SM",
+    "isActive": true
+  },
+  {
+    "name": "Sao Tome dan Principe",
+    "code": "ST",
+    "isActive": true
+  },
+  {
+    "name": "Arab Saudi",
+    "code": "SA",
+    "isActive": true
+  },
+  {
+    "name": "Senegal",
+    "code": "SN",
+    "isActive": true
+  },
+  {
+    "name": "Serbia",
+    "code": "RS",
+    "isActive": true
+  },
+  {
+    "name": "Serbia dan Montenegro",
+    "code": "CS",
+    "isActive": true
+  },
+  {
+    "name": "Seychelles",
+    "code": "SC",
+    "isActive": true
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SL",
+    "isActive": true
+  },
+  {
+    "name": "Singapura",
+    "code": "SG",
+    "isActive": true
+  },
+  {
+    "name": "Sint Maarten",
+    "code": "SX",
+    "isActive": true
+  },
+  {
+    "name": "Slovakia",
+    "code": "SK",
+    "isActive": true
+  },
+  {
+    "name": "Slovenia",
+    "code": "SI",
+    "isActive": true
+  },
+  {
+    "name": "Kepulauan Solomon",
+    "code": "SB",
+    "isActive": true
+  },
+  {
+    "name": "Somalia",
+    "code": "SO",
+    "isActive": true
+  },
+  {
+    "name": "Afrika Selatan",
+    "code": "ZA",
+    "isActive": true
+  },
+  {
+    "name": "Georgia Selatan dan Kepulauan Sandwich Selatan",
+    "code": "GS",
+    "isActive": true
+  },
+  {
+    "name": "Sudan Selatan",
+    "code": "SS",
+    "isActive": true
+  },
+  {
+    "name": "Spanyol",
+    "code": "ES",
+    "isActive": true
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LK",
+    "isActive": true
+  },
+  {
+    "name": "Sudan",
+    "code": "SD",
+    "isActive": true
+  },
+  {
+    "name": "Suriname",
+    "code": "SR",
+    "isActive": true
+  },
+  {
+    "name": "Swaziland",
+    "code": "SZ",
+    "isActive": true
+  },
+  {
+    "name": "Swedia",
+    "code": "SE",
+    "isActive": true
+  },
+  {
+    "name": "Swiss",
+    "code": "CH",
+    "isActive": true
+  },
+  {
+    "name": "Republik Arab Suriah",
+    "code": "SY",
+    "isActive": true
+  },
+  {
+    "name": "Taiwan",
+    "code": "TW",
+    "isActive": true
+  },
+  {
+    "name": "Tajikistan",
+    "code": "TJ",
+    "isActive": true
+  },
+  {
+    "name": "Tanzania",
+    "code": "TZ",
+    "isActive": true
+  },
+  {
+    "name": "Thailand",
+    "code": "TH",
+    "isActive": true
+  },
+  {
+    "name": "Timor Leste",
+    "code": "TL",
+    "isActive": true
+  },
+  {
+    "name": "Togo",
+    "code": "TG",
+    "isActive": true
+  },
+  {
+    "name": "Tokelau",
+    "code": "TK",
+    "isActive": true
+  },
+  {
+    "name": "Tiba",
+    "code": "TO",
+    "isActive": true
+  },
+  {
+    "name": "Trinidad dan Tobago",
+    "code": "TT",
+    "isActive": true
+  },
+  {
+    "name": "Tunisia",
+    "code": "TN",
+    "isActive": true
+  },
+  {
+    "name": "Turki",
+    "code": "TR",
+    "isActive": true
+  },
+  {
+    "name": "Turkmenistan",
+    "code": "TM",
+    "isActive": true
+  },
+  {
+    "name": "Kepulauan Turks dan Caicos",
+    "code": "TC",
+    "isActive": true
+  },
+  {
+    "name": "Tuvalu",
+    "code": "TV",
+    "isActive": true
+  },
+  {
+    "name": "Uganda",
+    "code": "UG",
+    "isActive": true
+  },
+  {
+    "name": "Ukraina",
+    "code": "UA",
+    "isActive": true
+  },
+  {
+    "name": "Uni Emirat Arab",
+    "code": "AE",
+    "isActive": true
+  },
+  {
+    "name": "Inggris",
+    "code": "GB",
+    "isActive": true
+  },
+  {
+    "name": "Amerika Serikat",
+    "code": "US",
+    "isActive": true
+  },
+  {
+    "name": "Uruguay",
+    "code": "UY",
+    "isActive": true
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "isActive": true
+  },
+  {
+    "name": "Vanuatu",
+    "code": "VU",
+    "isActive": true
+  },
+  {
+    "name": "Venezuela",
+    "code": "VE",
+    "isActive": true
+  },
+  {
+    "name": "Vietnam",
+    "code": "VN",
+    "isActive": true
+  },
+  {
+    "name": "Virgin Islands, Inggris",
+    "code": "VG",
+    "isActive": true
+  },
+  {
+    "name": "Virgin Islands, A.S.",
+    "code": "VI",
+    "isActive": true
+  },
+  {
+    "name": "Wallis dan Futuna",
+    "code": "WF",
+    "isActive": true
+  },
+  {
+    "name": "Sahara Barat",
+    "code": "EH",
+    "isActive": true
+  },
+  {
+    "name": "Yaman",
+    "code": "YE",
+    "isActive": true
+  },
+  {
+    "name": "Zambia",
+    "code": "ZM",
+    "isActive": true
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "isActive": true
+  }
+]

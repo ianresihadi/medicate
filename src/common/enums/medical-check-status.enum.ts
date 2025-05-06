@@ -1,0 +1,7 @@
+export enum MedicalCheckStatusEnum {
+  ON_PROCESS = "ON_PROCESS",
+  ON_QUEUE = "ON_QUEUE",
+  WAITING_APPROVE = "WAITING_APPROVE",
+  APPROVED = "APPROVED",
+  DECLINED = "DECLINED",
+}

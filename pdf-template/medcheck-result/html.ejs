@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+      body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        margin: 0;
+      }
+
+      .page-break {
+        page-break-after: always;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="page1" style="min-height: 780px; width: 100%; position: relative;">
+      <div id="cop-pdf" style="position: relative;">
+        <div style="position: absolute; left: 0; margin-left: -10px;">
+          <img
+            src="data:image/png;base64,<%= mediconn_logo %>"
+            alt="medicate"
+            width="85%"
+            height="full"
+          />
+        </div>
+        <div
+          style="
+            position: absolute; 
+            right: 0;
+            border: 1px solid #b0b1b3;
+            border-radius: 10px;
+            width: fit-content;
+            height: fit-content;
+            padding: 5px 10px 5px 10px;
+            text-align: right;
+          "
+        >
+          <span><b>Nama Faskes</b></span> <br />
+          <span
+            ><%= result.clinic_name %> <%= result.clinic_domicile_city %></span
+          >
+        </div>
+      </div>
+      <br /><br />
+      <h3 style="margin-top: 10%; margin-bottom: 5%; font-weight: 600;">MEDICAL CHECK-UP RESULT</h3>
+      <br />
+      <div
+        style="
+          border-width: 2px;
+          border-style: solid;
+          border-color: gray;
+          border-radius: 10px;
+          width: 60%;
+          height: fit-content;
+          padding: 5px 10px 5px 10px;
+          text-align: right;
+        "
+      >
+        <table style="text-align: left; font-size: 8px; width: 100%;">
+          <tr>
+            <td style="padding-right: 50px">
+              Order No.
+              <span style="font-weight: 700"><%= result.order_id %></span>
+            </td>
+            <td>Nama Lengkap</td>
+            <td>: <%= result.patient_name %></td>
+          </tr>
+          <tr>
+            <td>Kode Order <b><%= result.order_code %></b></td>
+            <td>No KTP</td>
+            <td>: <%= result.patient_identity_card_number %></td>
+          </tr>
+          <tr colspan="2">
+            <td></td>
+            <td>Tgl lahir / Umur</td>
+            <td>: <%= result.patient_birt_date %></td>
+          </tr>
+          <tr colspan="2">
+            <td></td>
+            <td>Tujuan Perjalanan</td>
+            <td>: <%= result.travel_detination %></td>
+          </tr>
+          <tr colspan="2">
+            <td></td>
+            <td>Paket</td>
+            <td>: <%= result.package_medical_check %></td>
+          </tr>
+        </table>
+      </div>
+      <br /><br />
+      <h3 style="font-weight: 600;">Physical Examination</h3>
+      <table style="text-align: left">
+        <tr>
+          <td>Tekanan darah</td>
+          <td>
+            : <%= result.physical_examination_result.bloodPressure %>mmHg
+          </td>
+        </tr>
+        <tr>
+          <td>Denyut Nadi</td>
+          <td>: <%= result.physical_examination_result.pulse %>/Menit</td>
+        </tr>
+        <tr>
+          <td>Suhu Tubuh</td>
+          <td>
+            : <%= result.physical_examination_result.bodyTemperature %>C
+          </td>
+        </tr>
+        <tr>
+          <td>Pernafasan</td>
+          <td>
+            : <%= result.physical_examination_result.respiratory %>/Menit
+          </td>
+        </tr>
+        <tr>
+          <td>Tinggi Badan</td>
+          <td>: <%= result.physical_examination_result.height %>cm</td>
+        </tr>
+        <tr>
+          <td>Lingkar Pinggang</td>
+          <td>
+            : <%= result.physical_examination_result.waistCircumference %>cm
+          </td>
+        </tr>
+        <tr>
+          <td>Massa Indeks Tubuh</td>
+          <td>
+            : <%= result.physical_examination_result.bodyMassIndex %>kg/m
+          </td>
+        </tr>
+      </table>
+
+      <div style="text-align: center; width: 25%; position: absolute; left: 0; bottom: 0;">
+        <div style="display: -webkit-box; -webkit-box-orient: horizontal; padding: 0 0 0 0;">
+          <div style="padding: 0 0 0 0; width: 40%; height: 40%;">
+            <img
+              src="<%= qr_code %>"
+              alt="medicate"
+              style="width: 100%;"
+            />
+          </div>
+          <div style="position: relative; width: 40%; height: 50px;">
+            <% if (result.result_status === 'UNFIT') { %>
+            <h3 style="font-weight: 600; position: absolute; bottom: 5; margin-left: 5%;">Status</h3>
+            <h2 style="color: #f00000; position: absolute; bottom: 0; margin-bottom: 0;"><%= result.result_status %></h2>
+            <%} else { %>
+            <h3 style="font-weight: 600; position: absolute; bottom: 5;">Status</h3>
+            <h2 style="color: #1ee510; position: absolute; bottom: 0; margin-bottom: 0; margin-left: 10%"><%= result.result_status %></h2>
+            <% } %>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-break"></div>
+    <div style="clear: both;"></div>
+
+    <section id="page2" style="min-height: 780px; width: 100%; position: relative;">
+      <div id="cop-pdf" style="position: relative;  margin-left: -10px;">
+        <div style="position: absolute; left: 0;">
+          <img
+            src="data:image/png;base64,<%= mediconn_logo %>"
+            alt="medicate"
+            width="85%"
+            height="full"
+          />
+        </div>
+        <div
+          style="
+            position: absolute; 
+            right: 0;
+            border: 1px solid #b0b1b3;
+            border-radius: 10px;
+            width: fit-content;
+            height: fit-content;
+            padding: 5px 10px 5px 10px;
+            text-align: right;
+          "
+        >
+          <span><b>Nama Faskes</b></span> <br />
+          <span
+            ><%= result.clinic_name %> <%= result.clinic_domicile_city %></span
+          >
+        </div>
+      </div>
+      <br /><br />
+      <h3 style="margin-top: 10%; margin-bottom: 5%; font-weight: 600;">Hasil Laboratorium</h3>
+      <h4 style="font-weight: 500;"><b>Blood Chemistry</b></h4>
+      <table style="text-align: left">
+        <tr>
+          <td>WBC</td>
+          <td>: <%= result.lab_result.wbc %>/ul</td>
+          <td style="padding-left: 100px;">PLT</td>
+          <td>: <%= result.lab_result.plt %>/ul</td>
+        </tr>
+        <tr>
+          <td>RBC</td>
+          <td>: <%= result.lab_result.rbc %>/ul</td>
+          <td style="padding-left: 100px;">LYM</td>
+          <td>: <%= result.lab_result.rbc %>%</td>
+        </tr>
+        <tr>
+          <td>HGB</td>
+          <td>: <%= result.lab_result.hgb %>g/dl</td>
+          <td style="padding-left: 100px;">MXD</td>
+          <td>: <%= result.lab_result.hgb %>%</td>
+        </tr>
+        <tr>
+          <td>HCT</td>
+          <td>: <%= result.lab_result.hct %>%</td>
+          <td style="padding-left: 100px;">NEU</td>
+          <td>
+            : <%= result.lab_result.hct %>%
+          </td>
+        </tr>
+        <tr>
+          <td>MCV</td>
+          <td>: <%= result.lab_result.mcv %>fl</td>
+          <td style="padding-left: 100px;">EST</td>
+          <td>: <%= result.lab_result.mcv %>mm.hr</td>
+        </tr>
+        <tr>
+          <td>MCH</td>
+          <td>: <%= result.lab_result.mch %> pg</td>
+        </tr>
+        <tr>
+          <td>MCHC</td>
+          <td>: <%= result.lab_result.mchc %> g.dl</td>
+        </tr>
+      </table>
+      <h4 style="font-weight: 500;"><b>Blood Chemistry</b></h4>
+      <table style="text-align: left">
+        <tr>
+          <td>Colour</td>
+          <td>: <%= result.lab_result.colour %></td>
+          <td style="padding-left: 100px;">Glocuse</td>
+          <td>
+            : <%= result.lab_result.glucose %>
+          </td>
+        </tr>
+        <tr>
+          <td>Clarity</td>
+          <td>: <%= result.lab_result.clarity %></td>
+          <td style="padding-left: 100px;">Bilirubin</td>
+          <td>: <%= result.lab_result.bilirubin %></td>
+        </tr>
+        <tr>
+          <td>pH</td>
+          <td>: <%= result.lab_result.ph %></td>
+          <td style="padding-left: 100px;">Urobilinogen</td>
+          <td>
+            : <%= result.lab_result.urobilinogen %>
+          </td>
+        </tr>
+        <tr>
+          <td>Sp. Gravity</td>
+          <td>: <%= result.lab_result.spGravity %></td>
+          <td style="padding-left: 100px;">Blood</td>
+          <td>
+            : <%= result.lab_result.blood %>
+          </td>
+        </tr>
+      </table>
+      <h3 style="margin-top: 5%; font-weight: 600;">Rekomendasi Umum & Khusus</h3>
+      <p><%= result.recommendation %></p>
+
+      <div style="text-align: center; width: 25%; position: absolute; left: 0; bottom: 0;">
+        <div style="display: -webkit-box; -webkit-box-orient: horizontal; padding: 0 0 0 0;">
+          <div style="padding: 0 0 0 0; width: 40%; height: 40%;">
+            <img
+              src="<%= qr_code %>"
+              alt="medicate"
+              style="width: 100%;"
+            />
+          </div>
+          <div style="position: relative; width: 40%; height: 50px;">
+            <% if (result.result_status === 'UNFIT') { %>
+            <h3 style="font-weight: 600; position: absolute; bottom: 5; margin-left: 5%;">Status</h3>
+            <h2 style="color: #f00000; position: absolute; bottom: 0; margin-bottom: 0;"><%= result.result_status %></h2>
+            <%} else { %>
+            <h3 style="font-weight: 600; position: absolute; bottom: 5;">Status</h3>
+            <h2 style="color: #1ee510; position: absolute; bottom: 0; margin-bottom: 0; margin-left: 10%"><%= result.result_status %></h2>
+            <% } %>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-break"></div>
+    <div style="clear: both;"></div>
+
+    <section id="page3" style="min-height: 780px; width: 100%; position: relative;">
+      <div id="cop-pdf" style="position: relative;  margin-left: -10px;">
+        <div style="position: absolute; left: 0;">
+          <img
+            src="data:image/png;base64,<%= mediconn_logo %>"
+            alt="medicate"
+            width="85%"
+            height="full"
+          />
+        </div>
+        <div
+          style="
+            position: absolute; 
+            right: 0;
+            border: 1px solid #b0b1b3;
+            border-radius: 10px;
+            width: fit-content;
+            height: fit-content;
+            padding: 5px 10px 5px 10px;
+            text-align: right;
+          "
+        >
+          <span><b>Nama Faskes</b></span> <br />
+          <span
+            ><%= result.clinic_name %> <%= result.clinic_domicile_city %></span
+          >
+        </div>
+      </div>
+      <br /><br />
+      <h3 style="margin-top: 10%; margin-bottom: 5%; font-weight: 600; text-align: center;">Laboratorium Reports</h3>
+      <table style="text-align: left">
+        <tr>
+          <th>Nama</td>
+          <td>: <%= result.patient_name %></td>
+          <th style="padding-left: 100px;">Sample Collection</th>
+          <td>
+            : <%= new Date(result.sample_collection).toLocaleDateString('en-EN', {day: '2-digit', month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: true}) %>
+          </td>
+        </tr>
+        <tr>
+          <th>Nomor Pasien</td>
+          <td>: <%= result.medical_check_id %></td>
+          <th style="padding-left: 100px;">Sample Received</th>
+          <td>
+            : <%= new Date(result.sample_received).toLocaleDateString('en-EN', {day: '2-digit', month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: true}) %>
+          </td>
+        </tr>
+        <tr>
+          <th>Nomor Order</td>
+          <td>: <%= result.order_id %></td>
+          <th style="padding-left: 100px;">Reported</th>
+          <td>
+            : <%= new Date(result.lab_result.createdAt).toLocaleDateString('en-EN', {day: '2-digit', month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: true}) %>
+          </td>
+        </tr>
+        <tr>
+          <th>Jenis Kelamin</td>
+          <td>: <%= result.patient_gender === 'male' ? 'Laki-laki' : 'Perempuan'  %></td>
+          <th style="padding-left: 100px;">Doctor</th>
+          <td>
+            : <%= result.doctor_name %>
+          </td>
+        </tr>
+      </table>
+      <table style="text-align: center; width: 100%; margin-top: 5%;">
+        <tr>
+          <th>Test Name</th>
+          <th>Result</th>
+          <th>Units</th>
+          <th>NormalRange</th>
+        </tr>
+        <tr>
+          <td colspan="4">Imuno Serologi</td>
+        </tr>
+      </table>
+      <table style="text-align: left; margin-top: 5%;">
+        <tr>
+          <th>HIV</th>
+        </tr>
+        <tr>
+          <td>HIV I/II Antibodies</td>
+          <td>Negative</td>
+          <td>Negative</td>
+        </tr>
+      </table>
+
+      <h4 style="font-weight: 500; text-align: center; margin-top: 35%;">**End Of Report**</h4>
+
+      <div>
+        <h4 style="display: inline;">Lab Technician</h4>
+        <h4 style="display: inline; margin-left: 55%;">dr. Penanggung Jawab</h4>
+      </div>
+
+      <div style="text-align: center; width: 25%; position: absolute; left: 0; bottom: 0;">
+        <div style="display: -webkit-box; -webkit-box-orient: horizontal; padding: 0 0 0 0;">
+          <div style="padding: 0 0 0 0; width: 40%; height: 40%;">
+            <img
+              src="<%= qr_code %>"
+              alt="medicate"
+              style="width: 100%;"
+            />
+          </div>
+          <div style="position: relative; width: 40%; height: 50px;">
+            <% if (result.result_status === 'UNFIT') { %>
+            <h3 style="font-weight: 600; position: absolute; bottom: 5; margin-left: 5%;">Status</h3>
+            <h2 style="color: #f00000; position: absolute; bottom: 0; margin-bottom: 0;"><%= result.result_status %></h2>
+            <%} else { %>
+            <h3 style="font-weight: 600; position: absolute; bottom: 5;">Status</h3>
+            <h2 style="color: #1ee510; position: absolute; bottom: 0; margin-bottom: 0; margin-left: 10%"><%= result.result_status %></h2>
+            <% } %>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

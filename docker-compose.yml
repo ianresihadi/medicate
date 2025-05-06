@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  nest-app:
+    container_name: medicate-be
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm start
+    restart: always

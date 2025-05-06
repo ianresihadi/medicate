@@ -1,0 +1,15 @@
+npm-debug.log
+manifests
+Dockerfile*
+docker-compose*
+.dockerignore
+.github
+.editorconfig
+.git
+.gitignore
+.gitattributes
+README.md
+LICENSE
+.vscode
+.env.example
+script

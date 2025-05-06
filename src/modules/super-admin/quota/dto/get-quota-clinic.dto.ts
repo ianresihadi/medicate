@@ -1,0 +1,22 @@
+import { Transform } from "class-transformer";
+import { IsNumber, IsOptional, IsString } from "class-validator";
+
+export class GetQuotaClinicDto {  
+  @IsOptional()
+  @IsNumber()
+  @Transform(({ value }) => Number(value))
+  page = 1;
+
+  @IsOptional()
+  @IsNumber()
+  @Transform(({ value }) => Number(value))
+  limit = 10;
+
+  @IsOptional()
+  @IsString()
+  search?: string;
+
+  @IsOptional()
+  @IsString()
+  clinicId?: string;
+}
